@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Baking App</string>
+    <string name="title_instruction_list">Instructions</string>
+    <string name="title_instruction_detail">Instruction Detail</string>
+    <string name="appwidget_text">Baking Widget</string>
+    <string name="add_widget">Add widget</string>
+    <string name="servings"> Servings</string>
+</resources>

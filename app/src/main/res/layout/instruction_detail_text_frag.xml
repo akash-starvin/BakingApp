@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorGrey"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/instruction_header"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:textColor="#ffffff"
+        android:textIsSelectable="true"
+        android:textStyle="bold"
+        tools:context=".fragment.InstructionDetailTextFrag"
+        tools:text="header" />
+
+    <TextView
+        android:id="@+id/instruction_detail"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="20dp"
+        android:textColor="#ffffff"
+        android:textIsSelectable="true"
+        android:textSize="18sp"
+        tools:context=".fragment.InstructionDetailTextFrag"
+        tools:text="content" />
+</LinearLayout>
