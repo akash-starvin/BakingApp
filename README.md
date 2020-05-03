@@ -2,7 +2,7 @@
 
 ## Overview
 App for Android Developer Nanodegree program. 
-Baking App will allow a user to select a recipe and see ingredients, video-guided steps for how to complete it. 
+Baking App will allow a user to select a recipe and see video-guided steps for how to complete it. The user can also add to his home screen as a widget for faster access of the recipe.
 
 ## Libraries
 1. ExoPlayer
@@ -11,10 +11,13 @@ Baking App will allow a user to select a recipe and see ingredients, video-guide
 4. Piccasso
 
 ## Functionality
-1. Adaptive UI for both phone and tablet
-2. Master Detail Flow to display recipe steps and navigation between them in tablet.
-3. App has a companion homescreen widget which displays ingredient list for desired recipe.
-4. Plays video only if available.
+1. App displays recipes from provided network resource (JSON).
+2. Master Detail Flow, navigation between individual recipes and recipe steps.
+3. Application makes use of Espresso to test aspects of the UI.
+4. Adaptive UI for both phone and tablet
+5. App has a companion homescreen widget which displays ingredient list for desired recipe.
+6. Plays video only if available.
+
 
 ## Screenshots
 ### Phone
